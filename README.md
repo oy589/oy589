@@ -1,16 +1,57 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>下载入口</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial;
+      background: #f5f6fa;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .box {
+      background: #fff;
+      width: 320px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0,0,0,.1);
+      padding: 20px;
+    }
+    .item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 14px 0;
+      border-bottom: 1px solid #eee;
+    }
+    .item:last-child { border-bottom: none; }
+    .btn {
+      background: #4f6ef7;
+      color: #fff;
+      padding: 6px 14px;
+      border-radius: 16px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
 
-<!--
-**oy589/oy589** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    <div class="item">
+      <span>海鸥聊天下载</span>
+      <a class="btn" href="https://www.haioumx.com" target="_blank">立即进入</a>
+    </div>
 
-Here are some ideas to get you started:
+    <div class="item">
+      <span>BatChat 官网</span>
+      <a class="btn" href="https://www.batchat.com" target="_blank">立即进入</a>
+    </div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  </div>
+</body>
+</html>
